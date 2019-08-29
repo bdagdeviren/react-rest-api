@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './FormPage.css';
 import { Progress } from 'react-sweet-progress';
 import "react-sweet-progress/lib/style.css";
 import { Button,Form,Col, Card, Alert, Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import listReactFiles from 'list-react-files'
 
-class App extends React.Component {
+class FormPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -60,4 +60,4 @@ class App extends React.Component {
     )
   }
 }
-export default App;
+export default FormPage;
