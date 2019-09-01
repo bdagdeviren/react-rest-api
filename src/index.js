@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import FormPage from './components/FormPage';
+import Content from './components/content';
+import Header from './components/header';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<FormPage />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('header'));
+ReactDOM.render(<Content />, document.getElementById('content'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

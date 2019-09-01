@@ -1,0 +1,28 @@
+body {
+  background: linear-gradient(to right, rgb(58, 28, 113), rgb(215, 109, 119), rgb(255, 175, 123));
+}
+
+.card-body {
+  border-color: #bee5eb;
+  background-color: #d1ecf1;
+}
+
+@media only screen and (max-width: 1075px) {
+  .submitBtn{
+    width: calc(15% - 20px)!important;
+  }
+  .fileInput{
+    width: 85%!important;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .submitBtn{
+    width: 100%!important;
+  }
+  .fileInput{
+    width: 100%!important;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+  }
+}
